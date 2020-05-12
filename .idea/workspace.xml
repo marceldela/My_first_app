@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9d934d2-76a4-4c34-ba28-b1ab89102f89" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="excel@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="excel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="excel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="excel: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="excel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="excel: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="excel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="excel: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="excel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="excel: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YZFa3JrKKDKjZuqgVlkzJZyRst" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/excel" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Media" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Media" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Media.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9d934d2-76a4-4c34-ba28-b1ab89102f89" name="Default Changelist" comment="" />
+      <created>1583142270557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583142270557</updated>
+      <workItem from="1583142273563" duration="17060000" />
+      <workItem from="1583224045302" duration="8838000" />
+      <workItem from="1583245048458" duration="8067000" />
+      <workItem from="1583312821487" duration="13232000" />
+      <workItem from="1583356072891" duration="481000" />
+      <workItem from="1583397753343" duration="5204000" />
+      <workItem from="1583403842641" duration="10566000" />
+      <workItem from="1583415555529" duration="24461000" />
+      <workItem from="1583675781995" duration="7000" />
+      <workItem from="1583675905916" duration="10000" />
+      <workItem from="1583764323529" duration="9671000" />
+      <workItem from="1583835500673" duration="6560000" />
+      <workItem from="1583851365513" duration="5818000" />
+      <workItem from="1583864426744" duration="3119000" />
+      <workItem from="1583940240699" duration="2012000" />
+      <workItem from="1583953205055" duration="5158000" />
+      <workItem from="1584010073184" duration="4393000" />
+      <workItem from="1584092224556" duration="10849000" />
+      <workItem from="1584357930988" duration="228000" />
+      <workItem from="1584441082291" duration="5521000" />
+      <workItem from="1584471530053" duration="2000" />
+      <workItem from="1584471734697" duration="14000" />
+      <workItem from="1584527514246" duration="904000" />
+      <workItem from="1584629281824" duration="2786000" />
+      <workItem from="1584703677971" duration="3525000" />
+      <workItem from="1584972252560" duration="3034000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="331" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583163570995">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="331" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.792@0.23.1440.792" timestamp="1583163570995" />
+    <state width="1113" height="123" key="GridCell.Tab.0.bottom" timestamp="1584819590241">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1113" height="123" key="GridCell.Tab.0.bottom/-196.-1057.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1584131812837" />
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583427034561" />
+    <state width="1184" height="158" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1583406677972" />
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1583518894121" />
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1583666305663" />
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1583674910824" />
+    <state width="1071" height="158" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1583425871398" />
+    <state width="1113" height="123" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1584819590241" />
+    <state width="1071" height="191" key="GridCell.Tab.0.bottom/0.23.1920.957@0.23.1920.957" timestamp="1583494168755" />
+    <state width="1068" height="123" key="GridCell.Tab.0.bottom/0.23.1920.999@0.23.1920.999" timestamp="1583947456411" />
+    <state width="1113" height="123" key="GridCell.Tab.0.center" timestamp="1584819590240">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1113" height="123" key="GridCell.Tab.0.center/-196.-1057.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1584131812835" />
+    <state width="1398" height="192" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583427034559" />
+    <state width="1184" height="158" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1583406677971" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1583518894120" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1583666305662" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1583674910823" />
+    <state width="1071" height="158" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1583425871396" />
+    <state width="1113" height="123" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1584819590240" />
+    <state width="1071" height="191" key="GridCell.Tab.0.center/0.23.1920.957@0.23.1920.957" timestamp="1583494168755" />
+    <state width="1068" height="123" key="GridCell.Tab.0.center/0.23.1920.999@0.23.1920.999" timestamp="1583947456410" />
+    <state width="1113" height="123" key="GridCell.Tab.0.left" timestamp="1584819590240">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1113" height="123" key="GridCell.Tab.0.left/-196.-1057.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1584131812835" />
+    <state width="1398" height="192" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583427034559" />
+    <state width="1184" height="158" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1583406677969" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1583518894119" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1583666305661" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1583674910822" />
+    <state width="1071" height="158" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1583425871395" />
+    <state width="1113" height="123" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1584819590240" />
+    <state width="1071" height="191" key="GridCell.Tab.0.left/0.23.1920.957@0.23.1920.957" timestamp="1583494168754" />
+    <state width="1068" height="123" key="GridCell.Tab.0.left/0.23.1920.999@0.23.1920.999" timestamp="1583947456409" />
+    <state width="1113" height="123" key="GridCell.Tab.0.right" timestamp="1584819590241">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1113" height="123" key="GridCell.Tab.0.right/-196.-1057.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1584131812836" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583427034560" />
+    <state width="1184" height="158" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1583406677972" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1583518894120" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1583666305662" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1583674910824" />
+    <state width="1071" height="158" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1583425871397" />
+    <state width="1113" height="123" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1584819590241" />
+    <state width="1071" height="191" key="GridCell.Tab.0.right/0.23.1920.957@0.23.1920.957" timestamp="1583494168755" />
+    <state width="1068" height="123" key="GridCell.Tab.0.right/0.23.1920.999@0.23.1920.999" timestamp="1583947456410" />
+    <state x="275" y="85" key="SettingsEditor" timestamp="1583142851350">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="275" y="85" key="SettingsEditor/0.23.1440.792@0.23.1440.792" timestamp="1583142851350" />
+    <state x="450" y="159" width="540" height="524" key="StructurePopup" timestamp="1583314664796">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="450" y="159" width="540" height="524" key="StructurePopup/0.23.1440.798@0.23.1440.798" timestamp="1583314664796" />
+    <state x="530" y="342" width="342" height="220" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1583417083401">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="530" y="342" width="342" height="220" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1440.798@0.23.1440.798" timestamp="1583417083401" />
+    <state x="508" y="166" width="670" height="676" key="search.everywhere.popup" timestamp="1583840017314">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="508" y="166" width="670" height="676" key="search.everywhere.popup/0.23.1440.819@0.23.1440.819" timestamp="1583840017314" />
+  </component>
+</project>

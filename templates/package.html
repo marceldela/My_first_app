@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}Pakiety{% endblock %}
+{% block content %}
+    <div class="row justify-content-center", style="padding-bottom: 5%">
+    <h3 class="text-muted">TWOJE PAKIETY</h3>
+    </div>
+        <table style="width: 100%">
+        <tr>
+            <th>Nr.</th>
+            <th>Pakiet</th>
+            <th></th>
+        </tr>
+        {% for package in packages %}
+            <tr>
+            <td>{{ package.id }}</td>
+                <td>{{ package.name }}</td>
+            <td><div class="deletebutton">
+                <a href="{% url 'delete_package' package.id %}" class="btn btn-danger btn-sm ">Usuń</a></div></td>
+            </tr>
+        {% endfor %}
+        </table>
+{% endblock %}
+
+
+

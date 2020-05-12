@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Budżet{% endblock %}
+{% block content %}
+    <div class="row justify-content-center", style="padding-bottom: 5%">
+    <h3 class="text-muted">WSZYSTKIE BUDŻETY:</h3>
+    </div>
+    <table style="width: 100%">
+    <tr>
+        <th>Nr.</th>
+        <th>Budżet</th>
+        <th>Stacja</th>
+        <th>CPP</th>
+        <th>CPP Max</th>
+        <th>CPP Min</th>
+        <th></th>
+    </tr>
+        {% for period in periods %}
+            <tr>
+                <td>{{ period.id }}</td>
+                <td>{{ period.name }}</td>
+                <td>{{ period.Station }}</td>
+                <td>{{ period.CPP }}</td>
+                <td>{{ period.CPP_max }}</td>
+        <td><div class="deletebutton">
+            <a href="{% url 'delete_year' period.id %}" class="btn btn-danger btn-sm ">Usuń</a></div></td>
+
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
+

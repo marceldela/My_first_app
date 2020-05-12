@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Miesiące{% endblock %}
+{% block content %}
+    <div class="row justify-content-center", style="padding-bottom: 5%">
+    <h3 class="text-muted">PRZEDZIAŁY MIESIĘCZNE</h3>
+    </div>
+
+
+    <table style="width: 100%">
+    <tr>
+        <th>Nr.</th>
+        <th>Miesiąc</th>
+        <th>Index</th>
+        <th>Stacja</th>
+        <th></th>
+    </tr>
+        {% for period in periods %}
+            <tr>
+            <td> {{ period.id }}</td>
+            <td>{{ period.name }}</td>
+            <td> {{ period.index_month }}</td>
+            <td>{{ period.station }}</td>
+            <td><div class="deletebutton">
+            <a href="{% url 'delete_month' period.id %}" class="btn btn-danger btn-sm ">Usuń</a></div></td>
+        {% endfor %}
+</tr>
+</table>
+{% endblock %}

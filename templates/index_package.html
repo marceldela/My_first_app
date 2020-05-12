@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Index{% endblock %}
+{% block content %}
+    <div class="row justify-content-center", style="padding-bottom: 5%">
+        <h3 class="text-muted">INDEXY:</h3></div>
+    <table style="width: 100%">
+        <tr>
+            <th>Nr.</th>
+            <th>Budżet</th>
+            <th>Pakiet</th>
+            <th>Index</th>
+            <th></th>
+        </tr>
+        {% for index in indexes %}
+            <tr>
+            <td>{{ index.id }}</td>
+            <td>{{ index.period_year }}</td>
+            <td>{{ index.pakiet }}</td>
+            <td>{{ index.index }}</td>
+            <td><div class="deletebutton">
+            <a href="{% url 'delete_index' index.id %}" class="btn btn-danger btn-sm ">Usuń</a></div></td>
+        {% endfor %}
+</tr>
+    </table>
+{% endblock %}
+
+
+
